@@ -1,4 +1,7 @@
-#Install Java, Maven
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Java, Maven
 
 Download File: https://www.oracle.com/java/technologies/downloads/#java8
 Install it
@@ -20,10 +23,13 @@ export PATH=$PATH:/Users/akg/Downloads/apache-maven-3.8.2/bin;
 Save the File
 Run the File: source ~/.bash_profile
 
-#Install Python3, pip3
+# Install Python3, pip3
+
+## Python3
 
 Download and Install Python3 from: https://www.python.org/downloads/macos/
 
+### Pip3
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
