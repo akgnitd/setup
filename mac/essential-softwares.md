@@ -1,15 +1,17 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install Java, Maven
+# Install Java, Maven and Set Path Variables
 
+### Java
 Download File: https://www.oracle.com/java/technologies/downloads/#java8
 Install it
 
+### Maven
 Download Maven: https://maven.apache.org/download.cgi
 Extract it
 
-Set Path Variables and Export Them:
+### Set Path Variables and Export Them:
 
 Create a new file - touch ~/.bash_profile
                     vi ~/.bash_profile
@@ -25,7 +27,7 @@ Run the File: source ~/.bash_profile
 
 # Install Python3, pip3
 
-## Python3
+### Python3
 
 Download and Install Python3 from: https://www.python.org/downloads/macos/
 
