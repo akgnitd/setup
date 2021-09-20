@@ -1,4 +1,4 @@
-Install Java, Maven
+#Install Java, Maven
 
 Download File: https://www.oracle.com/java/technologies/downloads/#java8
 Install it
@@ -20,4 +20,10 @@ export PATH=$PATH:/Users/akg/Downloads/apache-maven-3.8.2/bin;
 Save the File
 Run the File: source ~/.bash_profile
 
-Get Set GO
+#Install Python3, pip3
+
+Download and Install Python3 from: https://www.python.org/downloads/macos/
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+
