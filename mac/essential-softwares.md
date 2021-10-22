@@ -35,3 +35,25 @@ Download and Install Python3 from: https://www.python.org/downloads/macos/
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
+# Install and Setup Postgres
+brew update
+brew doctor
+brew install postgres
+
+## Start Postgres Server
+postgres -D /usr/local/var/postgres
+
+## Connect to Postgres Server
+sudo psql -U akg postgres
+
+where, akg -> user
+postgres -> default database
+
+## Create New User in Postgres
+create user akg with encrypted password 'admin';
+
+## Grant Privileges
+grant all privileges on database proddb to akg;
+
+## List Users
+\du
