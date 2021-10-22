@@ -46,7 +46,7 @@ postgres -D /usr/local/var/postgres
 ## Connect to Postgres Server
 sudo psql -U akg postgres
 
-where, akg -> user
+where, akg -> user,
 postgres -> default database
 
 ## Create New User in Postgres
