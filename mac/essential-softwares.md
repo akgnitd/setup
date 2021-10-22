@@ -57,3 +57,10 @@ grant all privileges on database proddb to akg;
 
 ## List Users
 \du
+
+## Drop User
+DROP OWNED BY akg;
+DROP user akg;
+
+## Change User Password
+alter user akg with password 'mylife';
