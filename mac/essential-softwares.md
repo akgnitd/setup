@@ -42,6 +42,8 @@ Go to Folder where we need to create a new Env
 akg@Atuls-MacBook-Pro azkaban % python3 -m venv env
 
 #### Activate Env
+Ref: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
 akg@Atuls-MacBook-Pro azkaban % source env/bin/activate
 
 (env) akg@Atuls-MacBook-Pro azkaban %
@@ -54,6 +56,7 @@ akg@Atuls-MacBook-Pro azkaban % source env/bin/activate
 
 #### Deactivate Env when not needed
 (env) akg@Atuls-MacBook-Pro Partner_Ckyc % deactivate
+
 
 # Install and Setup Postgres
 brew update
