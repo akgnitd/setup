@@ -35,6 +35,26 @@ Download and Install Python3 from: https://www.python.org/downloads/macos/
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
+### Virtual Env
+sudo python3 -m pip install --user virtualenv
+
+Go to Folder where we need to create a new Env
+akg@Atuls-MacBook-Pro azkaban % python3 -m venv env
+
+#### Activate Env
+akg@Atuls-MacBook-Pro azkaban % source env/bin/activate
+
+(env) akg@Atuls-MacBook-Pro azkaban %
+(env) akg@Atuls-MacBook-Pro azkaban % which python
+
+/Users/akg/Documents/GitHub/azkaban/env/bin/python
+
+#### Install required libraries
+(env) akg@Atuls-MacBook-Pro azkaban % python3 -m pip install requests
+
+#### Deactivate Env when not needed
+(env) akg@Atuls-MacBook-Pro Partner_Ckyc % deactivate
+
 # Install and Setup Postgres
 brew update
 brew doctor
