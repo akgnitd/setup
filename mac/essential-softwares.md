@@ -25,6 +25,10 @@ export PATH=$PATH:/Users/akg/Downloads/apache-maven-3.8.2/bin;
 Save the File
 Run the File: source ~/.bash_profile
 
+### Shows All Java Version in System:
+
+/usr/libexec/java_home -V
+
 # Install Python3, pip3
 
 ### Python3
