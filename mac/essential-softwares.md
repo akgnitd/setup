@@ -66,18 +66,25 @@ akg@Atuls-MacBook-Pro azkaban % source env/bin/activate
 brew update
 brew doctor
 brew install postgres
+# NEWL>>>> Postgres 15:
+brew install postgresql@15
 
 ## Start Postgres Server
 postgres -D /usr/local/var/postgres
 
 ## Connect to Postgres Server
 sudo psql -U akg postgres
+# NEW:>>>> Postgres 15: 
+psql -d postgres
 
 where, akg -> user,
 postgres -> default database
 
 ## Create New User in Postgres
 create user akg with encrypted password 'admin';
+
+## Add Roles
+ALTER USER akg CREATEDB CREATEROLE SUPERUSER LOGIN;
 
 ## Grant Privileges
 grant all privileges on database proddb to akg;
